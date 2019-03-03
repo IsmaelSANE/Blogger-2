@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project I’ll create a simple blog system with the basics of Ruby on Rails including:
 
-Things you may want to cover:
+* Models, Views, and Controllers (MVC)
 
-* Ruby version
+* Data Structures & Relationships
 
-* System dependencies
+* Routing
 
-* Configuration
+* Migrations
 
-* Database creation
+* Views with forms, partials, and helpers
 
-* Database initialization
+* RESTful design
 
-* How to run the test suite
+* Adding gems for extra features
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
