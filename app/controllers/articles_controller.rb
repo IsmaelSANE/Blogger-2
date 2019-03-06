@@ -9,6 +9,7 @@ class ArticlesController < ApplicationController
     @comment = Comment.new
     @comment.article_id = @article.id
   end
+
   def new
     @article = Article.new
   end

@@ -21,7 +21,7 @@ class AuthorsController < ApplicationController
   # GET /authors/1.json
   def show
   end
-
+  before_filter :require_login, except: [:new, :create]
   # GET /authors/new
   def new
     @author = Author.new
@@ -46,7 +46,7 @@ class AuthorsController < ApplicationController
       end
     end
   end
-
+  end
   # PATCH/PUT /authors/1
   # PATCH/PUT /authors/1.json
   def update
